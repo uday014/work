@@ -1,0 +1,35 @@
+.logo-foot{
+    width: 15rem;
+}
+.footer{
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #aee6ed;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer p{
+    /* font-weight: 500; */
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 12px;
+
+}
+.footer h5{
+    font-size: 1.5rem;
+}
+.foot-mid{
+    border-left: 1px solid #919191;
+    border-right: 1px solid #919191;
+}
+.icons i{
+    font-size: 1.6rem;
+    color: #0866ff;
+}
+.city{
+    background-color: #cef5f0;
+    margin: 5px 0px;
+    padding: 5px 8px;
+}

@@ -1,0 +1,49 @@
+.banner-back{
+    filter: blur(3px) brightness(0.3);
+    width: 100%;
+    height:90vh;
+    object-fit: cover;
+}
+.hori-line{
+    width: 330px;
+    border: 3px solid yellow;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blog-banner{
+    position: relative;
+}
+.blog-content{
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 55px;
+    z-index: 1;
+}
+.blog-content h1{
+    font-size: 3.5rem;
+    line-height: 55px;
+}
+.blog-content p{
+    /* max-width: 400px; */
+    font-size: 20px;
+    line-height: 22px;
+    width:50%
+}
+.blog-category{
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 80px;
+}
+.category-list{
+    font-size: 1.1rem;
+}
+.category-list h5{
+    padding: 10px 15px;
+}
+.category-list h5:hover{
+    background-color: #469EA9;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

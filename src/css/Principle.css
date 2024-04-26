@@ -1,0 +1,26 @@
+.number{
+    font-size: 5.0rem;
+    color: rgb(255, 196, 45);
+    font-weight: 300;
+}
+.prin-cont h1{
+    font-size: 3.0rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 52px;
+}
+.prin-cont p{
+    color: white;
+    font-size: 1.1rem;
+}
+.shape{
+    color: #f3f7fa;
+    transform: rotate(180deg);
+    font-size: 5rem;
+    position: absolute;
+    top: -37px;
+    left: 50%;
+    z-index: 1;
+}

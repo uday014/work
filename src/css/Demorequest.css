@@ -1,0 +1,93 @@
+.leading{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.leading-main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* .. */
+
+/* all */
+.request{
+    background-color: #469EA9;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.form{
+    padding: 37px;
+    margin: 45px;
+    background-color: aliceblue;
+    border: 1px solid #ced4da;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form input:hover{
+   border: 1px solid #24d3c0 !important;
+   box-shadow: 0 0 8px rgba(32,32,32,.1) !important;
+}
+.form select:hover{
+  border: 1px solid #24d3c0 !important;
+  box-shadow: 0 0 8px rgba(32,32,32,.1) !important;
+}
+
+
+.form input[type="text"],
+.form input[type="number"],
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Button */
+.form button {
+  padding: 10px 20px;
+  background-color: #469EA9;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form label{
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+/* Center align text */
+.text-center {
+  text-align: center;
+}
+
+/* Label styles */
+.form label {
+  font-weight: bold;
+}
+
+/* Flex container */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.req-left-head{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.req-left{
+    margin: 98px 61px;
+}

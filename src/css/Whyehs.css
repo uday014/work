@@ -1,0 +1,27 @@
+.why-image{
+    
+}
+.why-head{
+    color: #469EA9;
+    font-size: 1.6rem;
+}
+.why-content ul{
+    list-style-type:  disc !important;
+    padding: 0;
+    font-size: 1.0rem;
+}
+.why-card{
+    background-color: white;
+    box-shadow: 0 0 8px rgba(32,32,32,.1);
+    transition: box-shadow 0.3s ease, margin-top 0.3s ease !important;
+}
+.why-card:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin-top: 35px !important;
+    cursor: pointer;
+}
+.bullet-dot{
+    font-size: 0.5rem;
+    color: #469EA9;
+    margin-top: 9px;
+}

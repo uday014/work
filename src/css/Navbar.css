@@ -1,0 +1,45 @@
+.logo{
+    width: 8rem;
+}
+.navbar-top{
+    background-color: white !important;
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+    z-index: 999;
+    
+}
+.navbar-top-fix{
+    position: fixed !important;
+    width: 100%;
+    z-index: 999;
+    background-color: white !important;
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+    transition: top 0.9s ease;
+    /* box-shadow: 0 0px 20px rgba(70, 158, 169, 0.3), 0 -11px 0px rgba(70, 158, 169, 0.3); */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 4px 4px rgba(0, 0, 0, 0.23);
+}
+.drop{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 4px 4px rgba(0, 0, 0, 0.23);
+}
+.top-button{
+    background-color: #469EA9;
+    font-size: 19px ! Important;
+    color: white;
+    font-weight: 600;
+    line-height: 21px ! Important;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-left: 18px;
+    border: none;
+}
+.navigate a{
+    font-size: 19px;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-top{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
